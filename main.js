@@ -1,3 +1,4 @@
+// code for the button
 let n = 16
 
 function setNewGrid() {
@@ -16,6 +17,7 @@ document.querySelector(".btn").onclick = function() {
 	setNewGrid()
 }
 
+// code for the grid
 const container = document.querySelector("#container");
 
 function gridMaker() {
@@ -31,9 +33,9 @@ function gridMaker() {
 	}
 }
 
-
 gridMaker()
 
+// code for the etching (coloring by clicking)
 function etching () {
 	let grids = document.querySelectorAll(".grid")
 
