@@ -1,0 +1,60 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.Title {
+	padding: 20px;
+	color: white;
+}
+
+body {
+	background-color: #1F2937;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	border: 5px #3882f6 solid;
+	padding: 1px;
+	min-width: 600px;
+	min-height: 600px;
+}
+
+.btn {
+	border: none;
+	font-size: 22px;
+	background-color: #3882f6;
+	color: #E5E7EB;
+	padding: 5px 20px;
+	border-radius: 8px;
+}
+
+.row {
+	display: flex;
+	flex: 1;
+	height: 100%;
+	width: 100%;
+}
+
+.grid {
+	flex: 1;
+	border: 1px black solid;
+	background-color: white;
+	transition-duration: 1s;
+}
+
+.grid:hover {
+	background-color: #42445A;
+	opacity: 0.5;
+}
+
+.etched {
+	background-color: #42445A;
+}
